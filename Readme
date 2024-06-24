@@ -1,23 +1,22 @@
-Sistem Programlama Projesi
+Sistem Programlama Proje Ödevi
 
     Ekip:
+Beyza Çağlı  - B211210084 - 1A
 İrem Değerli - B211210038 - 1A
-Beyza Çağlı - B211210084 - 1A
 
     Amaç:
-Giriş dosyasında verilen komutlara göre çıkış dosyası oluşturmak.
+Giriş dosyasındaki komutlara göre çıkış dosyası oluşturmak.
 
     İçerik:
 Projenin içeriğinde komutları tanımlayan bir kaynak dosyası ve pro1 dosyası bulunuyor. 
-Komutları içeren dosya, komutların hangi işlemleri yapması gerektiğini açıklıyor.
-Pro1 dosyası da giriş dosyasını gezip komutlara göre fonksiyon çağırmaya yarıyor.
+Kaynak dosyasında komutların hangi işlemleri yapması gerektiği açıklanıyor.
+Pro1 dosyası giriş dosyasını gezip komutlara göre fonksiyon çağırıyor.
 
     Derleme ve Çalıştırma:
-Program oluşturulan makefile dosyası ile derleniyor. Çalıştığında ilk olarak kullanıcıdan giriş dosyası 
-için isim istiyor. Daha sonra giriş dosyasının ismi yanlış girilirse uyarı veriliyor ve tekrar girilmesi isteniyor.
-Eğer isim doğru ve formatı yanlışsa yine uyarı gönderiyor ve tekrar girilmesi isteniyor.
-Format kontrolünde komutların isminin doğru olup olmadığı, boşluk kontrolleri, program için çıktı 
-oluşturan dur: komutunun varlığı kontrol ediliyor. Doğru girilen giriş dosyasının satırlar tek tek gezilmeye 
-başlanıyor. Her satır için komut okunuyor ve o komutun işlemi yapılıyor. Çıkan sonuç bağlı listeye ekleniyor.
-Her satır böyle geziliyor ve komutlara göre bağlı liste güncelleniyor. Program dur: komutunu gördüğünde çıkış 
-dosyasına bağlı listenin içeriği yazılıyor. Program sonlandırılıyor.
+Program çalıştığında ilk olarak kullanıcıdan giriş dosyası ismi isteniyor. Giriş dosyasının ismi 
+yanlış girilirse veya isim doğru, format yanlış girilirse uyarı veriliyor ve tekrar isim girilmesi 
+isteniyor. Format kontrolünde komut isimlerinin doğruluğu, boşluk kontrolleri, "dur:" komutunun 
+varlığı kontrol ediliyor. Giriş dosyasının satırları tek tek gezilmeye başlanıyor. Her satır için
+komut okunuyor ve o komutun işlemi yapılıyor. Çıkan sonuç bağlı listeye ekleniyor. Satırlar geziliyor
+ve bağlı liste güncelleniyor. Program "dur:" komutunu gördüğünde çıkış dosyasına bağlı listenin 
+içeriği yazılıyor ve program sonlandırılıyor.
